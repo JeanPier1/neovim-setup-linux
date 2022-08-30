@@ -1,0 +1,42 @@
+{
+  "prettier.requireConfig": true,
+  "tslint.enable": true,
+  "tslint.autoFixOnSave": true,
+  "coc.preferences.snippetStatusText": "🌈",
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "Markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "yaml",
+    "json",
+    "jsonc",
+    "python",
+    "php",
+    "yaml"
+  ],
+  "diagnostic.errorSign": "✘",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.hintSign": "➤",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.file.showHiddenFiles": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  "html.enable":true,
+  "html.validate.scripts": true,
+  "html.format.enable":true,
+  "tsserver.log": "verbose",
+  "workspace.workspaceFolderCheckCwd": false,
+  "eslint.packageManager": "yarn",
+  "codeLens.enable": true
+}
