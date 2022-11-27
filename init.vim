@@ -61,6 +61,10 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'terryma/vim-multiple-cursors'
 
+Plug 'Yggdroot/indentLine'
+
+""Plug 'lukas-reineke/indent-blankline.nvim'
+
 call plug#end()
 
 " You can revert the settings after the call like so:
@@ -156,6 +160,7 @@ vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
 nnoremap <space>e :CocCommand explorer<CR>
+nnoremap <space>E :CocCommand explorer<CR>
 
 function! StartifyEntryFormat()
     return 'WebDevIconsGetFileTypeSymbol(absolute_path) ." ". entry_path'
@@ -276,5 +281,8 @@ let g:multi_cursor_quit_key            = '<Esc>'
 
 vnoremap <A-m> :MultipleCursorsFind >\zs.*\ze<<CR>
 
-
-
+""let g:indentLine_setColors = 0
+""let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+""let g:indentLine_concealcursor = 'inc'
+""let g:indentLine_conceallevel = 2
+""let g:indentLine_setConceal = 0
